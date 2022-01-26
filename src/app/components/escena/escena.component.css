@@ -1,0 +1,42 @@
+p {
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 12px;
+  margin: 15px;
+  color: black;
+  background-color: whitesmoke;
+}
+.botones {
+  text-align: center;
+  padding-bottom: 10px;
+}
+button {
+  width: 40%;
+  margin: 40px;
+  padding: 10px;
+}
+
+.classCurrent {
+  color: white;
+  background-color: darksalmon;
+}
+.escenaPage {
+  padding-bottom: 200px;
+}
+
+.class1 {
+  background-image: url("../../../img/1.jpg");
+}
+
+.class2 {
+  background-image: url("../../../img/2.jpg");
+}
+
+.class3 {
+  background-image: url("../../../img/3.jpg");
+}
+
+.class4 {
+  background-image: url("../../../img/4.jpg");
+}

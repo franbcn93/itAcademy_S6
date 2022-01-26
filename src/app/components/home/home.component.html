@@ -1,0 +1,13 @@
+<div *ngIf="!iniciar;" class="botones" >
+    <p>Ens ha demanat que desenvolupem un tutorial, en la qual mitjançant dos botons 
+        els nous usuaris puguin avançar i retrocedir en els consells, modificant-se el 
+        text d'ajuda i la imatge de fons.
+        <strong>Prem el botó de començar per iniciar el joc</strong></p>
+    <button (click)="Inici()" type="button" class="btn btn-dark" >Començar</button>  
+</div>
+<!-- <app-escena *ngIf="iniciar" [item]="textos"></app-escena> -->
+<app-escena *ngIf="iniciar" [listado_frases]="datos"></app-escena>
+
+
+
+

@@ -1,0 +1,13 @@
+<div class="escenaPage" [ngClass]="{'class1': this.image === '1.jpg','class2': this.image === '2.jpg',
+ 'class3': this.image === '3.jpg', 'class4': this.image === '4.jpg'}">
+<!-- <div class="escenaPage" [ngStyle]="{'background-color': this.image === '1.jpg' ? 'red' : (this.image === '2.jpg' ? 'blue' : null) }" > -->
+    <div class="botones">
+        <button (click)="prev()" type="button" class="btn btn-dark" >Anterior</button>
+        <button (click)="next()" type="button" class="btn btn-dark" >Següent</button>
+    </div>
+    <div >
+        <p *ngFor="let each of listado_frases; let i=index"[ngClass]="{'classCurrent': 
+        i  === this.currentSentence}" >{{each.txt}}</p>
+    </div>
+</div>
+
