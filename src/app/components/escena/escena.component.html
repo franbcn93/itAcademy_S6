@@ -1,5 +1,5 @@
-<div class="escenaPage" [ngClass]="{'class1': this.image === '1.jpg','class2': this.image === '2.jpg',
- 'class3': this.image === '3.jpg', 'class4': this.image === '4.jpg'}">
+<div class="escenaPage" [ngClass]="{'class1': this.currentSentence === 0,'class2': this.currentSentence === 1,
+ 'class3': this.currentSentence === 2, 'class4': this.currentSentence === 3}">
 <!-- <div class="escenaPage" [ngStyle]="{'background-color': this.image === '1.jpg' ? 'red' : (this.image === '2.jpg' ? 'blue' : null) }" > -->
     <div class="botones">
         <button (click)="prev()" type="button" class="btn btn-dark" >Anterior</button>
